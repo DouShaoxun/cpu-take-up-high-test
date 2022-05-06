@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 命令
-COMMAND=$1
+COMMAND=status
 
 # 项目所在路径
 PROJECT_DIR=/home/dousx/cpu-take-up-high-test
