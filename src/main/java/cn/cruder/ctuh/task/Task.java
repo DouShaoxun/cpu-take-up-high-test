@@ -3,6 +3,8 @@ package cn.cruder.ctuh.task;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import java.util.Date;
+
 /**
  * @author dousx
  * @date 2022-05-09 18:58
@@ -14,6 +16,6 @@ public class Task {
 
     @Scheduled(cron = "*/10 * * * * ?")
     public void taskAddByte() {
-        log.info(new Date());
+        log.info(new Date().toLocaleString());
     }
 }
