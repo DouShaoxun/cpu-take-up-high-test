@@ -8,6 +8,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 /**
  * @author dousx
  */
+@EnableScheduling
+@EnableAsync
 @SpringBootApplication
 public class Application {
 
